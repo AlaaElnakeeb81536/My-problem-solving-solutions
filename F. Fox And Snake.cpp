@@ -2,7 +2,7 @@
 #include<string>
 #include <algorithm>
 using namespace std;
-
+//hint use even and odd , use counter in the section of odd.
 
 int main()
 {
@@ -11,26 +11,22 @@ int main()
 	for(int i=0;i<n;i++)
     {
         if(i%2==0)
-        {
-
+     {
         for(int j=0;j<m;j++)
-        {
-
-                cout<<"#";
-        }
-        }
+        { cout<<"#";}
+      }     
+		
             else
-            {c++;
+            {
+	      c++;
               for(int j=0;j<m;j++)
-        {
-
+               {
             if(c%2==0&&j==0)
                 cout<<"#";
             else if(c%2!=0&&j==m-1)
                 cout<<"#";
             else cout<<".";
-
-        }
+                }
             }
             cout<<endl;
     }
