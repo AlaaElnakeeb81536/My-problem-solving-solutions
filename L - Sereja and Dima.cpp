@@ -1,5 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
+/*
+e.g 1 :4 1 2 10
+seraj choose the greatest one in left or right then dema do this also
+seraj=10  2==>12 
+dema=4  1==>5
+e.g2:1 2 3 4 5 6 7
+seraj=7 5 3 1==>16 
+dema=6 4 2==>12
+*/
 int main()
 {
 
