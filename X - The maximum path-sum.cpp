@@ -31,6 +31,6 @@ int main ()
             cin>>grid[i][j];
         }
     }
-    std::cout << maxPathSum (0, 0) << std::endl;
+    cout << maxPathSum (0, 0) <<endl;
     return 0;
 }
