@@ -86,25 +86,7 @@ void Aalaa()
 
 }
 */
-long int oddsum(int n)
-{
-    long long total=(n+1)/2;
-    long long odd=total*total;
-    return odd;
-}
-long int evensum(int n)
-{
-    long long total=(n)/2;
-    long long even=total*(total+1);
-    return even;
-}
-int sumltor(int l,int r)
-{
-    long long odd,even;
-    odd=oddsum(r)-oddsum(l-1);
-    even=evensum(r)-evensum(l-1);
-    return odd,even;
-}
+
 int main()
 {
 
