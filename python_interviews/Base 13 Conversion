@@ -1,0 +1,18 @@
+def convertToBase13(num):
+  
+  digits="0123456789ABC"
+  res=[]
+  if num==0:
+    return "0"
+  
+  n=abs(num)
+  while n>0 :
+    n,reminder=divmod(n,13)
+    res.append(digits[reminder])
+    
+  if num<0:
+    return '-'+ "".join(reversed(res))
+  else:
+    return "".join(reversed(res))
+
+  
